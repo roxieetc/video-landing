@@ -285,6 +285,10 @@ form label {
         width: 500px;
     }
 
+    .first-name { 
+        margin-right: 0;
+    }
+
     .namesI input {
         width: 182px;
     }
