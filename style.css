@@ -276,7 +276,7 @@ form label {
     }
 
     .wistia_responsive_wrapper {
-        width: 750px;
+        width: 800px;
     }
 
     .input-container input {
@@ -290,15 +290,15 @@ form label {
     }
 
     form {
-        width: 450px;
+        width: 425px;
     }
 
     form p {
-        font-size: 14px;
+        font-size: 13.5px;
     }
 
     .form-title {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     form label {
