@@ -58,21 +58,21 @@ button:hover {
 }
 
 .wistia_responsive_wrapper {
-    width: 1000px;
+    width: 1200px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* ==================== FORM STYLING ==================== */
 
 form {
-    width: 800px;
+    width: 600px;
     padding: 1rem 0 1.5rem 0;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .form-title {
-    font-size: 35px;
+    font-size: 30px;
     color: #085B66;
 }
 
@@ -148,12 +148,28 @@ form label {
 
 @media screen and (max-width: 1800px) {
     .wistia_responsive_wrapper {
-        width: 800px;
+        width: 1000px;
+    }
+
+    .hero-content {
+        margin-top: 4rem;
     }
 
     form {
-        width: 700px;
+        width: 600px;
         padding: 1rem 0 1.5rem 0;
+    }
+
+    .namesI {
+        display: inline-flex;
+    }
+
+    .namesI input {
+        width: 204px;
+    }
+
+    .first_nameI {
+        margin-right: .75rem;
     }
 
 }
@@ -169,16 +185,16 @@ form label {
     }
 
     .wistia_responsive_wrapper {
-        width: 700px;
+        width: 850px;
     }
 
     form {
-        width: 550px;
+        width: 500px;
         padding: 1rem 1rem 1.5rem 1rem;
     }
 
     .form-title {
-        font-size: 27px;
+        font-size: 24px;
     }
 
     .namesI {
@@ -186,7 +202,7 @@ form label {
     }
 
     .namesI input {
-        width: 175px;
+        width: 158px;
     }
 
     .first_nameI {
@@ -260,11 +276,11 @@ form label {
     }
 
     .wistia_responsive_wrapper {
-        width: 600px;
+        width: 750px;
     }
 
     .namesI input {
-        width: 176px;
+        width: 140px;
     }
 
     .input-container input {
@@ -273,12 +289,16 @@ form label {
         max-width: 376px;
     }
 
+    form {
+        width: 450px;
+    }
+
     form p {
         font-size: 14px;
     }
 
     .form-title {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     form label {
