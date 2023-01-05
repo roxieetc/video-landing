@@ -1,0 +1,377 @@
+/* ==================== CUSTOM STYLING ==================== */
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+strong {
+    color: #085B66;
+}
+
+button {
+    background-color: #B27247;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 25rem;
+    padding-block: 1.25rem;
+    margin-top: 2rem;
+    border: 1px solid #B27247;
+}
+
+button:hover {
+    background-color: #98613c;
+    border: 1px solid #98613c;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+/* ==================== HERO/TOP SECTION ==================== */
+
+.hero-top {
+    background-image: url('./grad-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.top-title h1 {
+    padding-block: 2rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    font-size: 70px;
+}
+
+.hero-content {
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.wistia_responsive_wrapper {
+    width: 1000px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* ==================== FORM STYLING ==================== */
+
+form {
+    width: 800px;
+    padding: 1rem 0 1.5rem 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-title {
+    font-size: 35px;
+    color: #085B66;
+}
+
+form p {
+    font-size: 18px;
+}
+
+form label {
+    font-size: 18px;
+}
+
+.input-container input {
+    background: #EFEFEF;
+    border: none;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    width: 70%;
+}
+
+.input-container2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first-name {
+    margin-right: 2rem;
+}
+
+.input-container2 input {
+    background: #EFEFEF;
+    border: none;
+    padding: .75rem;
+    margin-top: 1rem;
+}
+
+/* ==================== FOOTER SECTION ==================== */
+
+.support-contact {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.disclaimer {
+    color: #999999;
+}
+
+.disclaimer p {
+    font-size: 18px;
+}
+
+.disclaimer hr {
+    color: #FAFAFA;
+    width: 85%;
+    margin: auto;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #249396;
+}
+
+.footer-links a:hover {
+    cursor: pointer;
+    color: #085B66;
+}
+
+
+/* ==================== RESPONSIVE STYLING ==================== */
+
+/* MACBOOK 16" SCREEN */
+
+@media screen and (max-width: 1800px) {
+    .wistia_responsive_wrapper {
+        width: 800px;
+    }
+
+    form {
+        width: 700px;
+        padding: 1rem 0 1.5rem 0;
+    }
+
+}
+
+
+
+/* MACBOOK 14" SCREEN */
+
+@media screen and (max-width: 1500px) {
+
+    .top-title h1 {
+        font-size: 60px;
+    }
+
+    .wistia_responsive_wrapper {
+        width: 700px;
+    }
+
+    form {
+        width: 550px;
+        padding: 1rem 1rem 1.5rem 1rem;
+    }
+
+    .form-title {
+        font-size: 27px;
+    }
+
+    .namesI {
+        display: inline-flex;
+    }
+
+    .namesI input {
+        width: 175px;
+    }
+
+    .first_nameI {
+        margin-right: .75rem;
+    }
+
+    .input-container input {
+        padding: .75rem 1rem;
+        margin-top: .75rem;
+        max-width: 376px;
+    }
+
+    form p {
+        font-size: 16px;
+    }
+
+    form label {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+        font-weight: 500;
+        width: 20rem;
+        padding-block: 1rem;
+        margin-top: 2rem;
+        border: 1px solid #B27247;
+    }
+
+    .hero-content {
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2rem;
+    }
+}
+
+
+
+/* MACBOOK 13" SCREEN */
+
+@media screen and (max-width: 1300px) {
+    .hero-top {
+        background-image: url('./grad-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        padding-bottom: 2rem;
+    }
+
+    .top-title h1 {
+        padding-block: 1rem;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        font-size: 70px;
+    }
+
+    .hero-content {
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .hero-top {
+        background-image: url('./grad-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 90vh;
+    }
+
+    .top-title h1 {
+        font-size: 50px;
+    }
+
+    .wistia_responsive_wrapper {
+        width: 600px;
+    }
+
+    .namesI input {
+        width: 176px;
+    }
+
+    .input-container input {
+        padding: .5rem 1rem;
+        margin-top: .75rem;
+        max-width: 376px;
+    }
+
+    form p {
+        font-size: 14px;
+    }
+
+    .form-title {
+        font-size: 24px;
+    }
+
+    form label {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+        width: 18rem;
+        padding-block: .75rem;
+    }
+}
+
+/* MOBILE STYLING */
+
+@media screen and (max-width: 500px) {
+    .nav-img-container {
+        margin: auto; 
+    }
+
+    .top-title h1 {
+        font-size: 36px;
+    }
+
+    .wistia_responsive_wrapper {
+        width: 350px;
+        margin-bottom: 2rem;
+    }
+
+    form {
+        width: 350px;
+    }
+    
+    .form-title {
+        font-size: 20px;
+    }
+    
+    form p {
+        font-size: 15px;
+    }
+    
+    form label {
+        font-size: 15px;
+    }
+    
+    .input-container input {
+        padding: .75rem 1rem;
+        margin-top: .75rem;
+        width: 90%;
+        font-size: 15px;
+    }
+    
+    .first-name {
+        margin-right: 0;
+    }
+
+    .first_nameI {
+        margin-right: 0;
+    }
+
+    .namesI {
+        display: block;
+    }
+    
+    .input-container2 input {
+        background: #EFEFEF;
+        border: none;
+        padding: .74rem;
+        margin-top: 1rem;
+        font-size: 15px;
+    }
+
+    .support-contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .support-contact img {
+        margin: auto;
+        margin-bottom: 1rem;
+        width: 250px;   
+    }
+
+    .support-contact p {
+        font-size: 16px;
+    }
+
+    .disclaimer p {
+        font-size: 14px;
+    }
+
+    .footer-links p {
+        font-size: 16px;
+    }
+}
